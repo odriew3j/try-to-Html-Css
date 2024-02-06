@@ -5,28 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page</title>
-    <link type="text/css" rel='stylesheet' href="P1.Css"/>
+    <link type="text/css" rel='stylesheet' href="myCss.css"/>
  </head>   
  <body style="direction: ltr">
     <div id="main">
-        <div id="top">
-            <a id="a1" href="http://yahoo.com" target="_blank" title="به سایت یاهو وارد شوید">
-                Go to yahoo
-            </a>
-            <div id="header">
-                <label>noob runer</label><hr/>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-                <a id="a2" href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a>
-            </div>
-        </div>
+        <div id="top"></div>
         <div id="center">
             <div id="left">
                 <form action="q.php" method="get">
@@ -72,10 +55,21 @@
                         <input type="range"/><br/>
                         <input type="color"/>
                         <input type="date"/>
+
                     </fieldset>
                 </form>                
             </div>
             <div id="right"></div>
+            <div id="end1">
+                <label>Tests</label><hr/>
+                <nav>
+                    <a href="test_1.html" target="_blank" title="برو به تمرین یک">Test_1</a><br/>
+                    <a href="test_2.html" target="_blank" title="برو به تمرین دو">Test_2</a><br/>
+                    <a href="test_3.html" target="_blank" title="برو به تمرین سه">Test_3</a><br/>
+                    <a href="test_4.html" target="_blank" title="برو به تمرین چهار">Test_4</a><br/>
+                    <a href="test_5.html" target="_blank" title="برو به تمرین پنج">Test_5</a><br/>
+                </nav>
+            </div>
         </div>
         <div id="end">rrrr</div>
     </div>   
