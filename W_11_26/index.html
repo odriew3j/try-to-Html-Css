@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link type="text/css" rel='stylesheet' href="myCss.css"/>
+ </head>   
+ <body style="direction: ltr">
+    <div id="main">
+        <div id="top"></div>
+        <div id="center">
+            <div id="left">
+                <form action="q.php" method="get">
+                    <fieldset style="height: 390px;font-size: 25px;">
+                        <legend>Student Information</legend>
+                        <label>PL enter your name:</label>
+                        <input type="text" placeholder="Ali"/><br/>
+                        <label>PL enter your password:</label>
+                        <input type="password"/><br/>
+                        <label>PL enter your email:</label>
+                        <input type="email" /><br/>
+                        <label>PL enter your search:</label>
+                        <input type="search" /><br/>
+                        <input type="button" value="Exit"/>
+                        <input type="reset" value="Clear"/>
+                        <input type="submit" value="Send"/>
+                        <input type="checkbox"/>Math
+                        <input type="checkbox" value="1"/>Web
+                        <input type="radio"/>Mail
+                        <input type="radio"/>FeMail<br/>
+                        <select size="1">
+                            <optgroup label="Coppiler languages">
+                                <option>Math</option>
+                                <option>Python</option>
+                                <option>C++</option>
+                                <option>C#</option>
+                            </optgroup>
+                            <optgroup label="Web languages">
+                                <option>HTML</option>
+                                <option>Php</option>
+                            </optgroup>
+                        </select>
+                        <select disabled="disabled">
+                            <option>Math</option>
+                            <option>Python</option>
+                            <option>C++</option>
+                            <option>C#</option>
+                            <option>HTML</option>
+                            <option>Php</option>
+                        </select>
+                        <textarea cols="20" rows="6"></textarea>
+                        <input type="number" min="12" max="40"/>
+                        <input type="range"/><br/>
+                        <input type="color"/>
+                        <input type="date"/>
+
+                    </fieldset>
+                </form>                
+            </div>
+            <div id="right">
+                <a href="test_1.html">
+                    <img src="a.png" style="height: 200px;"/>
+                </a>
+                <map name="p">
+                    <area shape="rect" coords="100,20,200,100" href="test_3.html"/>
+                    <area shape="circle" coords="300, 100 ,100" href="test_4.html"
+                </map>
+                <img src="b.png" usemap="#p" style="height:200px">
+
+            </div>
+            <div id="end1">
+                <label>Tests</label><hr/>
+                <nav>
+                    <a href="test_1.html" target="_blank" title="تمرین تصاویر">Test_1</a><br/>
+                    <a href="test_2.html" target="_blank" title="تمرین صوت و ویدئو">Test_2</a><br/>
+                    <a href="test_3.html" target="_blank" title="تمرین رنگ ها">Test_3</a><br/>
+                    <a href="test_4.html" target="_blank" title="برو به تمرین چهار">Test_4</a><br/>
+                    <a href="test_5.html" target="_blank" title="برو به تمرین پنج">Test_5</a><br/>
+                </nav>
+            </div>
+        </div>
+        <div id="end">rrrr</div>
+    </div>   
+ </body>
+</html>
