@@ -1,0 +1,37 @@
+/* color */
+*{
+margin: 0;
+padding: 0;
+}
+main{
+    padding: 5px;
+}
+.flex-cont{
+
+    display: inline-flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 20%;
+}
+.text-box{
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: normal;
+    z-index: 1;
+
+}
+.home-box{
+    width: 240px;
+    height: 80px;
+    z-index: 0;
+    background: rgba(0, 135, 22, 0.34);
+    filter: blur(2px);
+/*    margin: 0px 56px 70px;    */
+    padding-top: 28px;
+}
+.home-box:hover{filter: blur(0px);}
